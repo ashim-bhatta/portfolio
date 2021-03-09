@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 110px;
+    padding: 0 clamp(0px, 5vw, 120px);
+}
+
+.logo {
+    background-color: green;
+    cursor: pointer;
+}
+
+.logoText {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: clamp(16px, 1.5vw, 28px);
+}
+
+.menueList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem {
+    margin-left: 40px;
+    font-size: clamp(13px, 1vw, 20px);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
